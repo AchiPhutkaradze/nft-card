@@ -1,0 +1,70 @@
+.texts {
+  padding: 24px 24px 16px 25px;
+  gap: 12px;
+}
+h1 {
+  color: var(--White, #fff);
+  font-size: 22px;
+  font-weight: 600;
+}
+.describe {
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.eth {
+  display: flex;
+  gap: 5px;
+  color: var(--Cyan, #00fff8);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: pre;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 26px 0 25px;
+  flex-wrap: wrap;
+}
+
+.time {
+  display: flex;
+  gap: 5px;
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 15px;
+  font-weight: 400;
+}
+.line {
+  width: 100%;
+  background-color: wheat;
+  height: 1px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  padding: 0 25px 0 25px;
+  background: var(--very-dark-blue-line, #2e405a);
+  margin-top: 16px;
+}
+.footer-div {
+  padding: 16px 85px 24px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.creator {
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 15px;
+  font-weight: 400;
+}
+#name {
+  color: var(--White, #fff);
+  font-size: 15px;
+  font-weight: 400;
+}
+#avatar-icon {
+  width: 33px;
+  height: 33px;
+}
