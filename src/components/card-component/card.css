@@ -16,16 +16,15 @@
 .img {
   padding: 24px 25px 0 24px;
 }
-
+.eye-div {
+  display: none;
+}
 @media screen and (min-width: 1440px) {
   .show:hover {
     opacity: 0.503;
     background: var(--Cyan, #00fff8);
   }
-  #eye {
-    display: none;
-    z-index: 1;
-  }
+
   .show {
     width: 278px;
     height: 275px;
@@ -37,8 +36,14 @@
     align-items: center;
     justify-content: center;
   }
-  .show:hover #eye {
-    display: block;
+  .eye-div {
     z-index: 1;
+    margin: auto;
+    position: absolute;
+    opacity: 1;
+    transform: translate(114px, -175px);
+  }
+  .img:hover .eye-div {
+    display: flex;
   }
 }

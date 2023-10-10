@@ -8,7 +8,8 @@ function Card() {
     <div className="card">
       <div className="img">
         <img id="Equilibrium" src={Equilibrium} />
-        <div className="show">
+        <div className="show"></div>
+        <div className="eye-div">
           <img id="eye" src={Eye} />
         </div>
       </div>
